@@ -1,5 +1,5 @@
-#gameName{
-    width: 500px;
+.gameName{
+    width: 200px;
     height: 500px;
     background-color: purple;
 }

@@ -3,5 +3,6 @@ $(document).ready(function() {
 
 
 });
+var targetNumber= 39;
 
-targetNumber= Math.round(Math.random()*100)
+targetNumber= Math.floor(Math.random()*100)

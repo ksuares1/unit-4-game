@@ -1,6 +1,7 @@
 .gameName{
-    width: 200x;
-    height: 400x;
+    width: 10%;
+    height: 90%;
+    margin: auto;
     background-color: purple;
     text-align:center;
 }

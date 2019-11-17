@@ -1,11 +1,16 @@
 $(document).ready(function() {
 
- var targetNumber= Math.floor(Math.random()*100);
 
 
-var userTotal=0;
+// Initialize the game:
+var targetNumber= Math.floor(Math.random()*100);
 var wins=0;
 var losses=0;
 
+function startGame(){
+    for(var i= 0; i > startGame; i++){
+
+    }
+}
 
 });

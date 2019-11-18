@@ -93,3 +93,7 @@ $('#opal').click(function () {
     }
 });
 
+function reset(){
+    totScore = 0
+    $('#totScore').text(totScore);
+}

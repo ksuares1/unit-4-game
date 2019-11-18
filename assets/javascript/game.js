@@ -1,4 +1,6 @@
-$(document).ready(function () {
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
     // this game generates a random number between 0 and 99
     var targetNumber = Math.floor(Math.random() * 100);
 
@@ -28,10 +30,13 @@ $(document).ready(function () {
         reset();
      }
 
-     //When user clicks a gem, it will collect the totalSum+gemValue
-     $('#blue').click(function){
-         
-     }
+     //When user clicks a gem, it will collect the totalSum=totalSum+gemValue
+     $('#blue').click(function(){
+         totScore = totScore + blue
+         $('#totScore').text(totScore);
+         if(totScore === randNumber){
+             win();
+             reset();
+             resetTwo();
+         }
 
-
-});

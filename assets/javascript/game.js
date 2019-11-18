@@ -16,12 +16,9 @@ $(document).ready(function () {
 
      function win(){
          wins = wins + 1;
-         ()
-// for(var i= 0; i > startGame; i++){
-
-//     }
-// }
+         $('#wins').text(wins);
 
 
 
-// });
+
+});

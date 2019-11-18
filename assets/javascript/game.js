@@ -8,14 +8,15 @@ var randomNumber;
 var wins=0;
 var losses=0;
 
-function startGame(){
+// function startGame(){
     //everytime we start a game- generate a random target number
-    targetNumber= [Math.floor(Math.random()*100)];
-    for(var i= 0; i > startGame; i++){
+     var targetNumber= [Math.floor(Math.random()*100)];
+    console.log(targetNumber);
+//     for(var i= 0; i > startGame; i++){
       
-    }
-}
+//     }
+// }
 
 
 
-});
+// });

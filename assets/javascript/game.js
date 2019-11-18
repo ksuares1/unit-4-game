@@ -17,7 +17,16 @@ $(document).ready(function () {
      function win(){
          wins = wins + 1;
          $('#wins').text(wins);
+         resetTwo();
+         reset();
+     }
 
+     function lose(){
+        losses = losses + 1;
+        $('#losses').text(wins);
+        resetTwo();
+        reset();
+     }
 
 
 

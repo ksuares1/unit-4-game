@@ -30,7 +30,7 @@ function lose() {
     reset();
 }
 
-//When user clicks a gem, it will collect the totalSum=totalSum+gemValue
+//When user clicks a gem, it will collect the totalSum=totalSum+gemValue totalSum+=gemValue
 $('#blue').click(function () {
     totScore = totScore + blue
     $('#totScore').text(totScore);
@@ -97,3 +97,4 @@ function reset(){
     totScore = 0
     $('#totScore').text(totScore);
 }
+

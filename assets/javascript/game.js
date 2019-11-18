@@ -29,7 +29,9 @@ $(document).ready(function () {
      }
 
      //When user clicks a gem, it will collect the totalSum+gemValue
-     $(blue)
+     $('#blue').click(function){
+         
+     }
 
 
 });

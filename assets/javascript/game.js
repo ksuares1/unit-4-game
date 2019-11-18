@@ -37,6 +37,59 @@ $('#blue').click(function () {
     if (totScore === targetNumber) {
         win();
         reset();
-        
     }
-    else if(totalScore >randomNumber)
+    else if (totalScore > targetNumber) {
+        lose();
+        reset();
+    }
+});
+
+$('#blue').click(function () {
+    totScore = totScore + blue
+    $('#totScore').text(totScore);
+    if (totScore === targetNumber) {
+        win();
+        reset();
+    }
+    else if (totalScore > targetNumber) {
+        lose();
+        reset();
+    }
+});
+$('#amethyst').click(function () {
+    totScore = totScore + blue
+    $('#totScore').text(totScore);
+    if (totScore === targetNumber) {
+        win();
+        reset();
+    }
+    else if (totalScore > targetNumber) {
+        lose();
+        reset();
+    }
+});
+$('#green').click(function () {
+    totScore = totScore + blue
+    $('#totScore').text(totScore);
+    if (totScore === targetNumber) {
+        win();
+        reset();
+    }
+    else if (totalScore > targetNumber) {
+        lose();
+        reset();
+    }
+});
+$('#opal').click(function () {
+    totScore = totScore + blue
+    $('#totScore').text(totScore);
+    if (totScore === targetNumber) {
+        win();
+        reset();
+    }
+    else if (totalScore > targetNumber) {
+        lose();
+        reset();
+    }
+});
+

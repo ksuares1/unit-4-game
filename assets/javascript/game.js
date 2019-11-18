@@ -23,11 +23,13 @@ $(document).ready(function () {
 
      function lose(){
         losses = losses + 1;
-        $('#losses').text(wins);
+        $('#losses').text(losses);
         resetTwo();
         reset();
      }
 
+     //When user clicks a gem, it will collect the totalSum+gemValue
+     $(blue)
 
 
 });

@@ -98,3 +98,13 @@ function reset(){
     $('#totScore').text(totScore);
 }
 
+// When the game is restarted, the page does not reload
+function resetTwo() {
+    randNumber = Math.floor(Math.random() * ((100 - 99) + 1) + 0);
+    $('#randNum').html(randNumber);
+    amethyst = Math.floor(Math.random() * 0) + 1;
+    emld = Math.floor(Math.random() * 0) + 1;
+    ruby = Math.floor(Math.random() * 0) + 1;
+    sapphire = Math.floor(Math.random() * 0) + 1;
+};
+

@@ -28,6 +28,7 @@ function lose() {
     $('#losses').text(losses);
     resetTwo();
     reset();
+    resetTwo();
 }
 
 //When user clicks a gem, it will collect the totalSum=totalSum+gemValue totalSum+=gemValue
@@ -37,35 +38,28 @@ $('#blue').click(function () {
     if (totScore === targetNumber) {
         win();
         reset();
+        resetTwo();
     }
     else if (totalScore > targetNumber) {
         lose();
         reset();
+        resetTwo();
+
     }
 });
 
-$('#blue').click(function () {
-    totScore = totScore + blue
-    $('#totScore').text(totScore);
-    if (totScore === targetNumber) {
-        win();
-        reset();
-    }
-    else if (totalScore > targetNumber) {
-        lose();
-        reset();
-    }
-});
 $('#amethyst').click(function () {
     totScore = totScore + blue
     $('#totScore').text(totScore);
     if (totScore === targetNumber) {
         win();
         reset();
+        resetTwo();
     }
     else if (totalScore > targetNumber) {
         lose();
         reset();
+        resetTwo();
     }
 });
 $('#green').click(function () {
@@ -74,10 +68,12 @@ $('#green').click(function () {
     if (totScore === targetNumber) {
         win();
         reset();
+        resetTwo();
     }
     else if (totalScore > targetNumber) {
         lose();
         reset();
+        resetTwo();
     }
 });
 $('#opal').click(function () {
@@ -86,10 +82,12 @@ $('#opal').click(function () {
     if (totScore === targetNumber) {
         win();
         reset();
+        resetTwo();
     }
     else if (totalScore > targetNumber) {
         lose();
         reset();
+        resetTwo();
     }
 });
 

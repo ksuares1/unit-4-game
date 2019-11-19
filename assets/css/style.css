@@ -24,6 +24,8 @@ body{
 }
 
 .wins-losses{
-    background-color: pink;
-    width:
+    background-color: red;
+    width: 25%;
+    height: 85%;
+    float: right;
 }

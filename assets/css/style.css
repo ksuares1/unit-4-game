@@ -9,3 +9,14 @@ body{
     height: 85%;
     background-color: purple;
 }
+
+#instructions{
+    background-color:yellow;
+    font-style: Times New Roman;
+    height: 75%;
+    width: 25%;
+}
+
+.target-number{
+    background-color: white;
+}

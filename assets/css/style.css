@@ -19,4 +19,11 @@ body{
 
 .target-number{
     background-color: white;
+    width: 200px;
+    height: 100px;
+}
+
+.wins-losses{
+    background-color: pink;
+    width:
 }

@@ -41,5 +41,13 @@ total-score{
 }
 
 #score{
-    background-color: white;
+    background-color: pink;
+    width: 15%;
+    height: 85%;
+}
+
+#totScore{
+    background-color:pink;
+    width: 190px;
+    height: 100px;
 }

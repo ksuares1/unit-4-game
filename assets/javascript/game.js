@@ -33,7 +33,7 @@ $(document).ready(function () {
         resetTwo();
     }
 
-    //When user clicks a gem, it will collect the totalSum=totalSum+gemValue totalSum+=gemValue
+    //When user clicks a gem, it will collect the totScore=totalScore+gemValue totalSum+=gemValue
     $('#blue').click(function () {
         totalScore += blue;
         console.log(totalScore);

@@ -24,9 +24,13 @@ body{
     height: 100px;
 }
 
-.wins-losses{
-    background-color: red;
+.number-tracker{
+    background-color: white;
     width: 25%;
     height: 85%;
     float: right;
+}
+
+#wins, #losses{
+    background-color: white;
 }

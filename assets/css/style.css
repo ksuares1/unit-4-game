@@ -26,11 +26,16 @@ body{
 
 .number-tracker{
     background-color: white;
-    width: 25%;
-    height: 85%;
-    float: right;
+    width: 100px;
+    height: 150px;
+    float: left;
+
 }
 
 #wins, #losses{
     background-color: white;
+}
+
+total-score{
+    background-color:white;
 }

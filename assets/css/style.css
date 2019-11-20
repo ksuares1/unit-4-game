@@ -37,5 +37,9 @@ body{
 }
 
 total-score{
-    background-color:white;
+    background-color: transparent;
+}
+
+#score{
+    background-color: white;
 }

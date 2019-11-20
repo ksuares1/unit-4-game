@@ -1,7 +1,7 @@
 body{
     background-image:url("../images/Crystal-Background.jpg");
     background-color: green;
-    background-size:cover;
+    
 }
 
 
@@ -9,6 +9,7 @@ body{
     width:15%;
     height: 85%;
     background-color: purple;
+   
 }
 
 #instructions{

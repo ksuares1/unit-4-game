@@ -3,6 +3,7 @@ $(document).ready(function () {
 
     // this game generates a random number between 0 and 99
     var targetNumber = Math.floor(Math.random() * 100);
+
     console.log(targetNumber);
     $('.random').text(targetNumber);
     // Initialize the game:
@@ -37,7 +38,7 @@ $(document).ready(function () {
     $('#blue').click(function () {
         totalScore += blue;
         console.log(totalScore);
-        console.log(blue .totScore);
+        console.log(blue.totScore);
         $('#totScore').text(totalScore);
         if (totalScore === targetNumber) {
             console.log('You won!');
@@ -59,7 +60,7 @@ $(document).ready(function () {
         $('#totScore').text(totalScore);
         if (totalScore === targetNumber) {
             console.log("You won!");
-             win();
+            win();
             reset();
             resetTwo();
         }
@@ -112,7 +113,7 @@ $(document).ready(function () {
     function resetTwo() {
         targetNumber = Math.floor(Math.random() * 100);
         $('#targetNum').html(targetNumber);
-        blue= Math.floor(Math.random() * 99) + 1;
+        blue = Math.floor(Math.random() * 99) + 1;
         amethyst = Math.floor(Math.random() * 99) + 1;
         green = Math.floor(Math.random() * 99) + 1;
         opal = Math.floor(Math.random() * 99) + 1;

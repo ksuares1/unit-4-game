@@ -1,6 +1,6 @@
 # Crystal Collector Game
 
-This is a crystal collector game that gives the user a random number, which they have to try to match by clicking on different crystals.
+This is a crystal collector game that gives users a random number, which they have to try to match by clicking on different crystals.
 
 ## Technologies
 - HTML

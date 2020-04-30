@@ -7,3 +7,7 @@ This is a crystal collector game that gives the user a random number, which they
 - CSS
 - JavaScript
 - Jquery
+
+## Clone
+
+Clone this repository: https://github.com/ksuares1/unit-4-game.git

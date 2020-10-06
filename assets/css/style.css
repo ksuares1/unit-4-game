@@ -6,6 +6,9 @@ body{
 
 .jumbotron{
     text-align: center;
+    background-image: url("../images/crystal-glasses.jpg");
+    width:35%;
+    margin:auto;
 }
 
 .game-name{

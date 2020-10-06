@@ -4,6 +4,9 @@ body{
     
 }
 
+.jumbotron{
+    text-align: center;
+}
 
 .game-name{
     width:15%;
@@ -13,7 +16,7 @@ body{
    
 }
 
-#instructions{
+.instructions{
     background-color:yellow;
     font-style: Times New Roman;
     height: 75%;
